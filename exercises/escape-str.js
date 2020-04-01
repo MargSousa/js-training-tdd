@@ -9,6 +9,9 @@
 
 // Your code:
 
+let escapeStr = ["/","\\","`",`"`,"'"];
+escapeStr = escapeStr.join("");
+
 //* Begin of tests
 const assert = require('assert');
 
