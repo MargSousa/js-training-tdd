@@ -9,7 +9,14 @@
 
 // Your code:
 
-//* Begin of tests
+function capitalize(string) {
+  string = string.toLowerCase();
+  string = string[0].toUpperCase() + string.slice(1, string.lenght);
+  return string;
+}
+
+
+// //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof capitalize, 'function');
